@@ -9,6 +9,7 @@ const SearchMovies = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        console.log(query);
         getMovies()
     }
     const handleChange = (e) =>{

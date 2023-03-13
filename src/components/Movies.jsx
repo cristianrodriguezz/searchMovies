@@ -1,6 +1,7 @@
 
 
 const ListOfMovies = ( { movies } ) => {
+    console.log(movies);
     return(
         <ul className="movies">
         {   

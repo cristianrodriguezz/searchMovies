@@ -1,10 +1,11 @@
 
-export const searchMovies = async ( { search } ) => {
+export const searchMovies = async ( { query } ) => {
 
-    if(search === '') return null
+    if(query === '') return null
+    console.log(query);
 
     try {
-        const response = await fetch(`https://www.omdbapi.com/?apikey=62237db&s=${search}`)
+        const response = await fetch(`https://www.omdbapi.com/?apikey=62237db&s=${query}`)
         const json = await response.json()
         
         const movies = json.Search
