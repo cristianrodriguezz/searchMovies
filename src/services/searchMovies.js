@@ -2,7 +2,6 @@
 export const searchMovies = async ( { query } ) => {
 
     if(query === '') return null
-    console.log(query);
 
     try {
         const response = await fetch(`https://www.omdbapi.com/?apikey=62237db&s=${query}`)

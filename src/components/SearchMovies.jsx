@@ -5,11 +5,11 @@ import { useMovies } from '../hooks/useMovies'
 
 const SearchMovies = () => {
     const { error, query , setQuery}  = useSearch();
-    const { movies, getMovies } = useMovies({query})
+    const { movies, getMovies, errorSearch, loading } = useMovies({query})
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(query);
         getMovies()
     }
     const handleChange = (e) =>{
@@ -25,7 +25,9 @@ const SearchMovies = () => {
             <button type='submit'>Search</button>
         </form>
         {error ? <p style={{color:"red",textAlign:"center"}}>{error}</p> : error}
-        <Movies movies={movies}/>
+        <main>
+            {loading ? <p>Cargando...</p> : <Movies movies={movies}/>}
+        </main>
     </div>
   )
 }
