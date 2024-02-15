@@ -2,6 +2,9 @@
 
 Este proyecto es una aplicación web desarrollada con React JS que permite a los usuarios buscar películas.
 
+![image](https://github.com/cristianrodriguezz/searchMovies/assets/79176713/d2e142b5-42cd-43ad-98c0-877460ad8bde)
+
+
 ## Cómo ejecutar la aplicación
 Para ejecutar la aplicación, asegúrate de tener Node.js y NPM instalados en tu sistema. Luego, sigue estos pasos:
 
