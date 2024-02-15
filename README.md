@@ -10,11 +10,17 @@ Para ejecutar la aplicación, asegúrate de tener Node.js y NPM instalados en tu
 
 ## Clona el repositorio en tu máquina local.
 - Navega hasta el directorio raíz del proyecto en tu terminal.
-- Ejecuta el comando npm install para instalar las dependencias del proyecto.
-- Ejecuta el comando npm start para iniciar la aplicación en modo de desarrollo.
-- Abre tu navegador web y navega a http://localhost:3000 para ver la aplicación en acción.
+- Ejecuta el siguiente comando
+ ```bash
+cd PokeDex
+npm install
+npm run dev
+```
+- Abre tu navegador web y navega a http://localhost:5173 para ver la aplicación en acción.
 ## Cómo utilizar la aplicación
-La aplicación es un buscador de películas, lo que significa que puedes ingresar el nombre de una película en la barra de búsqueda y la aplicación mostrará una lista de películas que coinciden con el término de búsqueda.
+
+La apliación te permite enviarle un whatsapp sin agendar el contacto
+Ingresás a la app y podés elegir el código de área del país y el número, una vez elegido eso, escribís el mensaje y le das a enviar. Automáticamente se te abrirá la conversiación de whatsapp sin haber agendado al contacto.
 
 ## Tecnologías utilizadas
 - React JS
