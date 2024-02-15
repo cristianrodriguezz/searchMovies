@@ -16,7 +16,7 @@ Para ejecutar la aplicación, asegúrate de tener Node.js y NPM instalados en tu
   
 ## Cómo utilizar la aplicación
 
--La aplicación es un buscador de películas, lo que significa que puedes ingresar el nombre de una película en la barra de búsqueda y la aplicación mostrará una lista de películas que coinciden con el término de búsqueda.
+- La aplicación es un buscador de películas, lo que significa que puedes ingresar el nombre de una película en la barra de búsqueda y la aplicación mostrará una lista de películas que coinciden con el término de búsqueda.
 
 ## Tecnologías utilizadas
 - React JS
